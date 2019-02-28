@@ -33,19 +33,20 @@
 * git push -u origin master
 * git branch --set-upstream-to=origin/master master
 
-## 创建本地分支并推送到远端 / 拉取远端分支到本地【重要】
+## 创建本地分支并推送到远端【重要】
 
-* 方式一【推荐】
-  * git checkout -b develop origin/develop   +   git push
-    * git branch develop
-    * git checkout develop
-    * git push -u origin develop
-* 方式二
-  * git checkout -b develop   +   git push --set-upstream origin develop
-    * git branch develop
-      * git checkout develop
-      * git push origin develop
-      * git branch --set-upstream-to=origin/develop
+* git checkout -b develop   +   git push --set-upstream origin develop
+  * git branch develop
+  * git checkout develop
+  * git push origin develop
+  * git branch --set-upstream-to=origin/develop
+    
+## 拉取远端分支到本地【重要】
+
+* git checkout -b develop origin/develop   +   git push
+  * git branch develop
+  * git checkout develop
+  * git push -u origin develop
 
 ## 分支操作
 
