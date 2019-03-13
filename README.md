@@ -23,6 +23,7 @@
 ## 仓库操作
 
 * git remote add origin git@xxxxxxxxxx   添加远端仓库
+* git remote rename <oldName> <newName>  修改仓库名
 * git remote  查看远端仓库
 * 同步仓库分支状态
   * git remote update origin --prune
