@@ -1,4 +1,4 @@
-# Git学习
+# Awesome git
 
 ## 配置git账号
 
