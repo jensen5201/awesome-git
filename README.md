@@ -60,6 +60,7 @@
 
 * git merge b a 合并b到a中
 * git merge origin b a 合并远端b到a中
+* git merge --abort  合并发生冲突时放弃合并
 
 ## 暂存操作
 
