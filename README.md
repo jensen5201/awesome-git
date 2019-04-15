@@ -1,4 +1,4 @@
-# Git学习
+# Awesome git
 
 ## 配置git账号
 
@@ -23,6 +23,7 @@
 ## 仓库操作
 
 * git remote add origin git@xxxxxxxxxx   添加远端仓库
+* git remote rename <oldName> <newName>  修改仓库名
 * git remote  查看远端仓库
 * 同步仓库分支状态
   * git remote update origin --prune
@@ -33,19 +34,20 @@
 * git push -u origin master
 * git branch --set-upstream-to=origin/master master
 
-## 创建本地分支并推送到远端 / 拉取远端分支到本地【重要】
+## 创建本地分支并推送到远端【重要】
 
-* 方式一【推荐】
-  * git checkout -b develop origin/develop   +   git push
-    * git branch develop
-    * git checkout develop
-    * git push -u origin develop
-* 方式二
-  * git checkout -b develop   +   git push --set-upstream origin develop
-    * git branch develop
-      * git checkout develop
-      * git push origin develop
-      * git branch --set-upstream-to=origin/develop
+* git checkout -b develop   +   git push --set-upstream origin develop
+  * git branch develop
+  * git checkout develop
+  * git push origin develop
+  * git branch --set-upstream-to=origin/develop
+    
+## 拉取远端分支到本地【重要】
+
+* git checkout -b develop origin/develop   +   git push
+  * git branch develop
+  * git checkout develop
+  * git push -u origin develop
 
 ## 分支操作
 
