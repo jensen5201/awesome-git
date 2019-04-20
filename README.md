@@ -14,7 +14,7 @@
 - git add .
 - git commit . -m ‘xxxxx'
 - git push
-- git pull
+- git pull [--rebase] 如果有多人在同一个分支上操作，推荐加--rebase，可以优化gitlog记录线方便查看
 - git checkout . 撤销修改【慎用】
 - git checkout head filename 用head版本的对应文件替换暂存区和工作区的文件
 - git reset .  回退git add
