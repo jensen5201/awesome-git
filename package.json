@@ -1,0 +1,29 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "## 配置git账号",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jensen5201/git.git"
+  },
+  "author": "jensen.yee <jensen5201@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jensen5201/git/issues"
+  },
+  "homepage": "https://github.com/jensen5201/git#readme",
+  "dependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

@@ -4,6 +4,7 @@
 
 - git config  <--local / --global> alias.xx xx / user.name xx
 - git config <--local / --global> --list
+- git config --global --bool pull.rebase true
 
 ## 常用操作
 

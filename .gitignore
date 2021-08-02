@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#dependencies
+node_modules
+
+# folder
+dist
+lib
+coverage
+.cache-loader
+
+# log
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+yarn.lock*
+
+# editor directories
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# files
+*.zip
+*.rar
+*.xlsx
+
+# customer setting
+
