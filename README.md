@@ -85,7 +85,6 @@
   - git add + git commit
   - git push
 
-
 ## 标签操作
 
 - git tag 查看所有tag
@@ -93,6 +92,8 @@
 - git push [origin] --tags 推送tag到远程
 - git tag -d tagname 删除本地tag
 - git push origin -d tagname 删除远程tag
+- git tag -d $(git tag -l) 删除本地所有tag
+- git push origin --delete $(git tag -l) 删除远端所有tag
 
 ## 子模块操作
 
